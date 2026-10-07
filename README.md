@@ -9,13 +9,13 @@
 推荐从 GitHub 安装固定版本：
 
 ```bash
-pi install git:github.com/sephiroth233/pi-claude-style@v0.1.1
+pi install git:github.com/mlang233/pi-claude-style@v0.1.1
 ```
 
 也可以安装 `main` 分支：
 
 ```bash
-pi install git:github.com/sephiroth233/pi-claude-style@main
+pi install git:github.com/mlang233/pi-claude-style@main
 ```
 
 本地开发或离线分发时，把完整目录放在长期保留的位置，然后运行：
@@ -76,7 +76,7 @@ pi install -l /完整路径/pi-claude-style
 卸载时，使用安装时的来源。固定版本的 GitHub 安装：
 
 ```bash
-pi remove git:github.com/sephiroth233/pi-claude-style@v0.1.1
+pi remove git:github.com/mlang233/pi-claude-style@v0.1.1
 ```
 
 本地安装：
