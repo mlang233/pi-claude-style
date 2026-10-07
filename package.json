@@ -1,0 +1,21 @@
+{
+  "name": "pi-claude-style",
+  "version": "0.1.1",
+  "private": true,
+  "description": "A pluggable, Claude-inspired compact tool transcript and session-only themes for Pi.",
+  "type": "module",
+  "keywords": ["pi-package", "pi", "tui", "compact", "theme"],
+  "files": ["index.ts", "lib", "themes", "tests", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node tests/run.mjs"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "pi": {
+    "extensions": ["./index.ts"],
+    "themes": ["./themes/light.json", "./themes/dark.json"]
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+node_modules/
+coverage/
+.pi/
+.DS_Store
+*.log
+*.tgz
+*.tar.gz
+*.sha256
+claude-style.json
